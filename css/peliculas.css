@@ -1,0 +1,156 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+
+header{
+    display: flex;
+    height: 80px;
+    background-color: rgb(40, 39, 39);
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(32, 178, 246);
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin-left: 14px;
+}
+
+.logo img{
+    height: 70px;
+    margin-right: 15px;
+}
+
+nav a{
+    font-weight: 600;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+}
+
+nav a:hover{
+    color: rgb(10, 80, 113);
+}
+
+body {
+    background-image: url(/img/fondo/ambiente.jpg);
+}
+
+
+div {
+    background-color: rgb(0, 0, 0);
+    width: 230px;
+    height: 500px;
+    text-align: center;
+    
+}
+
+div img{
+    width: 180px;
+    margin-top: 10px;
+}
+
+div p {
+    color: antiquewhite;
+}
+
+
+section{
+    width: 1000px;
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 90px;
+    padding: 25px;
+}
+
+section h3{
+    text-decoration: none;
+    color: rgb(255, 11, 11);
+    text-align: center;
+}
+
+section p{
+    color: beige;
+}
+/*seccion de productos*/
+
+
+.secciones{
+    width: 2000px;
+    margin: auto;
+}
+
+.secciones ul{
+    list-style-type: none;
+}
+
+.secciones a{
+    text-decoration: none;
+    color:beige;
+    background-color: rgb(24, 23, 23);
+    padding: 315px 170px;
+    display: block;
+    width: 80px;
+    text-align: center;
+    border-radius: 25px;
+    margin: 10px;
+}
+
+.secciones li{
+    float: left;
+}
+
+.secciones a:hover{
+    background-color: rgb(98, 98, 98);
+}
+
+.secciones li ul{
+    position: absolute;
+    display: none;
+}
+
+
+.secciones li:hover >ul{
+    display: block;
+}
+
+.uno{
+    background-image: url(/img/estrenos/image1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.dos{
+    background-image: url(/img/estrenos/image2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.tres{
+    background-image: url(/img/estrenos/image3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+.cuatro{
+    background-image: url(/img/estrenos/image4.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+
+
+.sipnosis{
+    width: 2000px;
+    margin: auto;
+}
+

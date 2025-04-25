@@ -1,0 +1,136 @@
+body {
+    background-image: url(/img/fondo/fondo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+
+
+body{
+    background-color: rgb(225, 234, 238);
+    }
+    
+    header{
+        width: 200px;
+        height: 190px;
+        background-image: url(/img/logo/logo.png);
+        background-position: center;
+        background-size: cover;
+        /* background-repeat: no-repeat; */
+        margin: auto;
+        border-radius: 20px;
+        padding: 35px;
+    }
+    
+    .banner{
+        width: 1200px;
+        height: 300px;
+        background-image: url(/img/banner/banner.png);
+        background-position: center;
+        background-size: cover;
+        margin: auto;
+        border-radius: 20px;
+        margin-top: 10px;
+        padding-right: 35px;
+        padding-left: 35px;
+    }
+    
+    nav{
+        width: 750px;
+        margin: auto;
+    }
+    
+    nav ul{
+        list-style-type: none;
+    }
+    
+    nav a{
+        text-decoration: none;
+        color:beige;
+        background-color: rgb(24, 23, 23);
+        padding: 10px 35px;
+        display: block;
+        width: 80px;
+        text-align: center;
+        border-radius: 10px;
+        margin: 10px;
+    }
+
+    nav li{
+        float: left;
+    }
+    
+    nav a:hover{
+        background-color: rgb(98, 98, 98);
+    }
+    
+    nav li ul{
+        position: absolute;
+        display: none;
+    }
+    
+    
+    nav li:hover >ul{
+        display: block;
+    }
+
+
+    
+    section{
+        width: 1000px;
+        background-color: rgb(0, 0, 0);
+        margin: auto;
+        border-radius: 20px;
+        margin-top: 90px;
+        padding: 25px;
+    }
+
+    .dos{
+        width: 1100px;
+        background-color: rgb(0, 0, 0);
+        margin: auto;
+        border-radius: 20px;
+        margin-top: 20px;
+        padding: 25px;
+    }
+
+    section h3{
+        text-decoration: none;
+        color: rgb(255, 11, 11);
+        text-align: center;
+    }
+
+    section p{
+        color: beige;
+    }
+
+    
+    footer{
+        width: 1000px;
+       
+        background-color: rgb(27, 29, 29);
+        margin: auto;
+        border-radius: 20px;
+        margin-top: 10px;
+        padding-right: 35px;
+        padding-left: 35px;
+    }
+    
+    p{
+        text-align: justify;
+    }
+    
+    #texto{
+        color: aliceblue;
+        padding: 35px;
+        text-align: center;
+    }
+    
+
+
+
+    
